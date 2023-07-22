@@ -21,12 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		396309B8220547BDB522B9B4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E9343081E80744FD9E86EE5F;
-			remoteInfo = OneSignalNotificationServiceExtension;
+		DD274177279D4A7DB58A1D33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9343081E80744FD9E86EE5F /* OneSignalNotificationServiceExtension */;
+			targetProxy = 396309B8220547BDB522B9B4 /* PBXContainerItemProxy */;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -145,6 +143,7 @@
 				D65327D7A22EEC0BE12398D9 /* Pods */,
 				D7E4C46ADA2E9064B798F356 /* ExpoModulesProviders */,
 				3184321EB8BB4EC08AF825BB /* OneSignalNotificationServiceExtension */,
+				DF93F9BBAF70400C8EC1C380 /* OneSignalNotificationServiceExtension */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -185,6 +184,7 @@
 				3184321EB8BB4EC08AF825BB /* OneSignalNotificationServiceExtension */,
 				1DEB38A5B5E858F1CDBB5D49 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
 				94718CE45B180AB6BF9EC116 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
+				DF93F9BBAF70400C8EC1C380 /* OneSignalNotificationServiceExtension */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -195,6 +195,18 @@
 				92DBD88DE9BF7D494EA9DA96 /* shoesapp */,
 			);
 			name = ExpoModulesProviders;
+			sourceTree = "<group>";
+		};
+		DF93F9BBAF70400C8EC1C380 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				406F7ABC50CE45C0A67C8B1C /* NotificationService.h */,
+				C51672E824CA44EA96781FA2 /* OneSignalNotificationServiceExtension.entitlements */,
+				E18F112B3BAA47019319E3CD /* OneSignalNotificationServiceExtension-Info.plist */,
+				90B0A5A391304F3BB6CF3EC7 /* NotificationService.m */,
+			);
+			name = OneSignalNotificationServiceExtension;
+			path = OneSignalNotificationServiceExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -476,7 +488,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shoesapp;
-				PRODUCT_NAME = shoesapp;
+				PRODUCT_NAME = "shoesapp";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -502,7 +514,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shoesapp;
-				PRODUCT_NAME = shoesapp;
+				PRODUCT_NAME = "shoesapp";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";

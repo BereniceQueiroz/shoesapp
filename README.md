@@ -3,7 +3,8 @@
 
 shoesapp
 
-(Push Notifications & Deep Linking)
+Configuração Push Notifications - Android com FCM e OneSignal
+Deep Linking
 
 ## 📝 Licença
 
